@@ -14,7 +14,7 @@ mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a
 include: ["_pages"]
 permalink: /:title/
 
-remote-theme: wowthemesnet/mediumish-theme-jekyll
+remote_theme: wowthemesnet/mediumish-theme-jekyll
 
 # Authors
 authors:
