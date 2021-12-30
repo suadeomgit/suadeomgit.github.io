@@ -1,0 +1,176 @@
+.k_section {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.k_section h1 {
+    color: rgb(227, 241, 253);
+    text-align: center;
+    font-size: 10rem;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    padding: 10px;
+    margin: 5px;
+    z-index: 1;
+    opacity: 0.9;
+}
+.k_section h2{
+    color: rgb(227, 241, 253);
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    padding: 10px;
+    margin: 5px;
+    z-index: 1;
+    opacity: 1;
+}
+.k_section p{
+    color: aliceblue;
+    text-align: center;
+    font-style: normal bold;
+    font-size: 2.1rem;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    padding: 20px;
+    margin: 15px;
+    z-index: 1;
+}
+
+.k_video-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.k_color-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(43, 41, 41);
+    width: 100%;
+    height: 100vh ;
+    opacity: 0.6;
+}
+
+.k_section2 {
+    position: relative;
+    width: 100%;
+    height: 104.4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.k_explain img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;   
+}
+
+.k_jump{
+    color: aliceblue;
+    text-align: center;
+    font-style: 'malgun_gothic' bold;
+    font-size: 2.1rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    z-index: 1;
+    background-color: rgb(18, 20, 23);
+}
+
+/* .section3 video{
+    position: absolute;
+    width: 50%;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+#about, .k_one, .k_two, .k_three, .k_four{
+    height: 121vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /*! scroll-snap-align: start ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.k_container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100%;
+    width: 100%;
+}
+.k_one{
+    background: rgb(18, 20, 23);
+}
+.k_one img{
+    width: 100%;
+    align-items: center;
+}
+.k_two{
+    background: rgba(18, 20, 23);
+}
+.k_two p{
+    color: aliceblue;
+    text-align: center;
+    font-style: normal bold;
+    font-size: 1.7rem;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    padding: 20px;
+    margin: 15px;
+
+}
+.k_two-overlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: rgb(18, 20, 23);
+    width: 100%;
+    height: 100% ;
+    opacity: 0.8;
+}
+.k_tv-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(43, 41, 41, 0.6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    z-index: 1;
+}
+
+.k_three{
+    background: rgb(18, 20, 23);
+}
+
+.k_three img{
+    height: 80%;
+    align-items: center;
+}
+.k_four{
+    background: rgb(18, 20, 23);
+}
+.k_four img{
+    height: 80%;
+    align-items: center;
+}

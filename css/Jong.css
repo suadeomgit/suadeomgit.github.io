@@ -1,0 +1,162 @@
+.text{
+    text-align: center;
+}
+
+.j-title{
+    text-align: center;
+}
+
+.j-graph{
+    width: 610px;
+    border: 3px solid black;
+    align-items: center;
+}
+
+.j-bar{
+    width: 50px;
+    height: 45px;
+    background-color: red;
+    margin: 5px;
+    transition-duration: 5s;
+    border-radius: 4px;
+}
+
+.j-graph:hover> #j-bar1{
+    position: relative;
+    width: 473px;
+    transition-timing-function: linear;
+    background-color: plum;
+}
+
+#j-bar1 div{
+    opacity: 0;
+}
+
+.j-graph:hover> #j-bar1 div{
+    position: relative;
+    /* transform: translate(600px); */
+    opacity: 1;
+    animation: move1 8.5s forwards ;
+}
+
+@keyframes move1{
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 423px;
+    }
+}
+
+#j-bar2 div{
+    opacity: 0;
+}
+
+.j-graph:hover> #j-bar2{
+    position: relative;
+    width: 238px;
+    transition-timing-function: linear;
+    background-color: orange;
+}
+
+.j-graph:hover> #j-bar2 div{
+    position: relative;
+    /* transform: translate(600px); */
+    opacity: 1;
+    animation: move2 8.5s forwards;
+}
+
+@keyframes move2 {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 187px;
+    }
+}
+
+#j-bar2 div{
+    opacity: 0;
+}
+
+.j-graph:hover> #j-bar3{
+    width: 124px;
+    transition-timing-function: linear;
+    background-color: yellowgreen;
+}
+
+#j-bar3 div{
+    opacity: 0;
+}
+
+.j-graph:hover> #j-bar3 div{
+    position: relative;
+    /* transform: translate(600px); */
+    opacity: 1;
+    animation: move3 8.5s forwards;
+}
+
+@keyframes move3 {
+    0%{
+        left: 0px;
+    }
+    100%{
+        left: 73px;
+    }
+}
+
+
+div.j-bar:nth-child(1){
+    transition-delay: 0s;
+    background-color: peru;
+    /* transition-timing-function: ease; */
+    
+}
+
+
+div.j-bar:nth-child(2){
+    transition-delay: 0s;
+    background-color: pink;
+    /* transition-timing-function: ease; */
+}
+div.j-bar:nth-child(3){
+    transition-delay: 0s;
+    background-color: gold;
+    /* transition-timing-function: ease; */
+}
+
+.j-graph:hover>div.j-bar:nth-child(1){
+    background-color: peru;
+}
+
+.j-graph:hover>div.j-bar:nth-child(2){
+    background-color: pink;
+}
+
+.j-graph:hover>div.j-bar:nth-child(3){
+    background-color: gold;
+}
+
+.j-image{
+    opacity: 0;
+}
+
+.sa{
+    width: 1000px;
+    height: 550px;
+	opacity:0;
+	transition:all .5s ease
+}
+.sa-down{
+	transform:translate(0,-100px)
+}
+.sa.show{
+	opacity:1;
+	transform:none
+}
+
+.part{
+    width: 300px;
+    height: 250px;
+
+}
